@@ -35,3 +35,22 @@ let myAge = currentYear - yearOfBirth;
 let sentence = `My name is ${myName}. I am ${myAge} years old and my hobby is ${myHobby}`;
 console.log(sentence);
 
+
+// Let's check how smart is my browser :)
+console.log(`Let's check how smart is my browser`);
+const num1 = 456382;
+const num2 = 790352;
+const num3 = 109378;
+const num4 = 999997;
+
+let sum = num1 + num4;
+console.log(`Sum of ${num1} and ${num2} is ${sum}`);
+let substract = sum - num2;
+console.log(`When ${num2} is substracted from ${sum} we are getting ${substract}`);
+let division = sum / substract;
+console.log("To devide", sum, "by", substract, "the browser will get", division);
+let multiply = num3 * num2;
+console.log("Can my browser guess what is", num3, "multiplied by", num2, "is? - The answer is:", multiply);
+let modulo = sum % multiply;
+console.log(`Final queston: what is the modulo of ${sum} devided by ${multiply}? - The answer is ${modulo}`);
+console.log(`Okay, browser seems to have some brain :)`);
