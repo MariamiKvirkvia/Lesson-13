@@ -20,3 +20,18 @@ console.log("Type of someUnefined is", typeof someUndefined);
 // Null
 let nullData = null;
 console.log("Type of nullData is", typeof nullData);
+
+const myName = "Mariami";
+let myHobby = "reading";
+const yearOfBirth = 1996;
+let currentYear = 2023;
+
+// Syntax 1
+console.log("My name is", myName);
+console.log("I am", currentYear - yearOfBirth, "years old and my hobby is", myHobby);
+
+// Syntax 2
+let myAge = currentYear - yearOfBirth;
+let sentence = `My name is ${myName}. I am ${myAge} years old and my hobby is ${myHobby}`;
+console.log(sentence);
+
